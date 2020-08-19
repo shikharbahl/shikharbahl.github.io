@@ -12,7 +12,7 @@ body {
 	align-items: center;
   background-color: #FFF;
 	display: flex;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
 	flex-direction: column;
 	justify-content: center;
 	overflow: hidden;
@@ -32,7 +32,7 @@ div.container {
 
 h1 {
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
   font-size: 52px;
   font-weight: 900;
   line-height: 46px;
