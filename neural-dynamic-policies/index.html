@@ -128,7 +128,7 @@
 </script>
 <!-- End : Google Analytics Code -->
 
-<script type="text/javascript" src="hidebib.js"></script>
+<script type="text/javascript" src="resources/hidebib.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
 <head>
   <meta charset="utf-8" />
@@ -254,49 +254,56 @@
         </tr>
       </table>
       <br><hr>
-
-      <table align=center width=850px>
         <center><h1>Paper and Bibtex</h1></center>
-        <tr>
-        <td width=250px align=left>
-        <!-- <p style="margin-top:4px;"></p> -->
-        <a href="resources/assemblies.pdf"><img style="height:140px" src="images/teaser_v5.jpg"/></a>
-        <center>
-        <span style="font-size:20pt"><a href="resources/assemblies.pdf">[Paper]</a>
-        <span style="font-size:20pt"><a href="https://arxiv.org/abs/1902.05546v2">[ArXiv]</a>
-        <span style="font-size:20pt"><a href="resources/slides.pdf">[Slides]</a></span>
-        <span style="font-size:20pt"><a href="resources/poster.pdf">[Poster]</a></span>
-        </center>
-        </td>
-        <td width=50px align=center>
-        </td>
-        <td width=550px align=left>
-        <!-- <p style="margin-top:4px;"></p> -->
-        <p style="text-align:left;"><b><span style="font-size:20pt">Citation</span></b><br/><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:15pt">Shikhar Bahl, Mustafa Mukadam, Abhinav Gupta, Deepak Pathak. <b>Neural Dynamic Policies for End-to-End Sensorimotor Learning<br/></b> In <i>NeurIPS</i> 2020.</span></p>
-        <!-- <p style="margin-top:20px;"></p> -->
-        <span style="font-size:20pt"><a shape="rect" href="javascript:togglebib('assemblies19_bib')" class="togglebib">[Bibtex]</a></span>
-        </td>
-        </tr>
-        <tr>
-        <td width=250px align=left>
-        </td>
-        <td width=50px align=center>
-        </td>
-        <td width=550px align=left>
-          <div class="paper" id="assemblies19_bib">
-<pre xml:space="preserve">
-@inproceedings{bahl2020neural,
-  Author = { Bahl, Shikhar and Mukadam, Mustafa and
-  Gupta, Abhinav and Pathak, Deepak},
-  Title = {Neural Dynamic Policies for End-to-End Sensorimotor Learning},
-  Booktitle = {NeurIPS},
-  Year = {2020}
-}</pre>
-          </div>
+          <table align=center width=850px>
+          <tr>
+          <td width="30%" align=left>
+          <!-- <p style="margin-top:4px;"></p> -->
+          <a href="https://arxiv.org/pdf/2005.05960.pdf"><img style="height:150px" src="resources/thumbnail.png"/></a>
+          <center>
+          <span style="font-size:20pt"><a href="https://arxiv.org/pdf/2005.05960.pdf">[Paper]</a>
+          <span style="font-size:20pt"><a href="https://arxiv.org/abs/2005.05960">[ArXiv]</a>
+          <!-- <span style="font-size:20pt"><a href="resources/slides.pdf">[Slides]</a></span>
+          <span style="font-size:20pt"><a href="resources/poster.pdf">[Poster]</a></span> -->
+          </center>
+          </td>
+          <td width="6%" align=center>
+          </td>
+          <td width="64%" align=left>
+          <!-- <p style="margin-top:4px;"></p> -->
+          <p style="text-align:left;"><b><span style="font-size:20pt">Citation</span></b><br/><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:15pt">Ramanan Sekar, Oleh Rybkin, Kostas Daniilidis, Pieter Abbeel, Danijar Hafner, Deepak Pathak. <b>Planning to Explore via Self-Supervised World Models.</b> ICML 2020.</span></p>
+          <!-- <p style="margin-top:20px;"></p> -->
+          <span style="font-size:20pt"><a shape="rect" href="javascript:togglebib('plan2explore2019_bib')" class="togglebib">[Bibtex]</a></span>
           </td>
           </tr>
-      </table>
-    <br><hr>
+          <tr>
+          <td width="30%" align=left>
+          </td>
+          <td width="6%" align=center>
+          </td>
+          <td width="64%" align=left>
+            <div class="paper" id="plan2explore2019_bib">
+          <pre xml:space="preserve">
+          @inproceedings{sekar2020planning,
+          title={Planning to Explore
+          via Self-Supervised World Models},
+          author={Ramanan Sekar and Oleh Rybkin
+          and Kostas Daniilidis and Pieter Abbeel
+          and Danijar Hafner and Deepak Pathak},
+          year={2020},
+          Booktitle={ICML}
+          }</pre>
+            </div>
+            </td>
+            </tr>
+          </table>
+          <br><hr>
+          </table>
+
+          <script xml:space="preserve" language="JavaScript">
+          hideallbibs();
+          </script>
+          </div>
 
     <table align=center width=800px>
       <tr><td width=800px><left>
@@ -305,8 +312,5 @@
     </left></td></tr>
     </table>
   <br><br>
-<script xml:space="preserve" language="JavaScript">
-hideallbibs();
-</script>
 </body>
 </html>
